@@ -34,12 +34,13 @@
 		</developer>
 	</developers>
 
-	<!--	<scm>-->
-	<!--		<connection>scm:git:https://github.com/raedbh/spring-outbox.git</connection>-->
-	<!--		<developerConnection>scm:git:ssh://git@github.com:raedbh/spring-outbox.git-->
-	<!--		</developerConnection>-->
-	<!--		<url>https://github.com/raedbh/spring-outbox</url>-->
-	<!--	</scm>-->
+	<distributionManagement>
+		<repository>
+			<id>github</id>
+			<name>GitHub Apache Maven Packages</name>
+			<url>https://maven.pkg.github.com/zidquocviet1/vrent</url>
+		</repository>
+	</distributionManagement>
 
 	<dependencyManagement>
 		<dependencies>
