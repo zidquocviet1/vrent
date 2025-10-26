@@ -1,0 +1,11 @@
+vrent:
+  http:
+    common:
+      token-type: client_credentials
+      token-url: http://localhost:8082/v1/idp/oauth/token
+      client-id: base-client-id
+      secret: base-client-secret
+      token-cache-type: in_memory
+    clients:
+      payments:
+        base-url: http://localhost:8080
